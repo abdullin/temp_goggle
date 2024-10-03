@@ -1,0 +1,37 @@
+! name: Woodworking Companies in Poland
+! description: Prioritizes websites likely to contain contact info of small woodworking businesses in Poland
+! public: false
+! author: Your Name
+
+! Boost Polish domains
+$site=pl
+
+! Boost keywords in the title
+drewno$intitle,$site=pl,$boost=3
+stolarz$intitle,$site=pl,$boost=3
+meble$intitle,$site=pl,$boost=3
+stolarnia$intitle,$site=pl,$boost=3
+ciesla$intitle,$site=pl,$boost=3
+schody$intitle,$site=pl,$boost=2
+okna$intitle,$site=pl,$boost=2
+drzwi$intitle,$site=pl,$boost=2
+uslugi$intitle,$site=pl,$boost=1
+stolarskie$intitle,$site=pl,$boost=1
+
+! Boost keywords in the URL
+drewno$inurl,$site=pl,$boost=2
+stolarz$inurl,$site=pl,$boost=2
+meble$inurl,$site=pl,$boost=2
+stolarnia$inurl,$site=pl,$boost=2
+ciesla$inurl,$site=pl,$boost=2
+schody$inurl,$site=pl,$boost=1
+okna$inurl,$site=pl,$boost=1
+drzwi$inurl,$site=pl,$boost=1
+uslugi$inurl,$site=pl,$boost=1
+stolarskie$inurl,$site=pl,$boost=1
+
+! Boost known Polish business directories
+$site=panoramafirm.pl,$boost=2
+$site=pkt.pl,$boost=2
+$site=firmy.net,$boost=2
+$site=yellowpages.pl,$boost=2
